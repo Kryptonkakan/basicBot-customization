@@ -1,6 +1,6 @@
 (function () {
     //Link location of your fork so you don't have to modify so many things.
-    var fork = "Yemasthui";
+    var fork = "Kryptonkakan";
 		
     //Define our function responsible for extending the bot.
     function extend() {
@@ -55,13 +55,13 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        botName: "Snus Bot",
         language: "english",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
         cmdDeletion: true,
-        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
+        chatLink: "https://rawgit.com/Kryptonkakan/basicBot/master/lang/en.json",
         maximumAfk: 120,
         afkRemoval: true,
         maximumDc: 60,
@@ -75,9 +75,9 @@
         voteSkip: false,
         voteSkipLimit: 10,
         timeGuard: true,
-        maximumSongLength: 10,
+        maximumSongLength: 9,
         autodisable: true,
-        commandCooldown: 30,
+        commandCooldown: 1,
         usercommandsEnabled: true,
         lockskipPosition: 3,
         lockskipReasons: [
@@ -91,16 +91,16 @@
         ],
         afkpositionCheck: 15,
         afkRankCheck: "ambassador",
-        motdEnabled: false,
-        motdInterval: 5,
-        motd: "Temporary Message of the Day",
+        motdEnabled: True,
+        motdInterval: 40,
+        motd: "Check out our stream at https://twitch.tv/snusbrothers",
         filterChat: true,
         etaRestriction: false,
         welcome: true,
         opLink: null,
         rulesLink: null,
         themeLink: null,
-        fbLink: null,
+        fbLink: "tiny.cc/Snusbrothers",
         youtubeLink: null,
         website: null,
         intervalMessages: [],
