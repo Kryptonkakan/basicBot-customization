@@ -61,7 +61,7 @@
         startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
         cmdDeletion: true,
-        chatLink: "https://rawgit.com/Kryptonkakan/basicBot/master/lang/en.json",
+        chatLink: false,
         maximumAfk: 120,
         afkRemoval: true,
         maximumDc: 60,
@@ -114,6 +114,6 @@
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript("https://rawgit.com/Kryptonkakan/basicBot/master/basicBot.js", extend);
+    $.getScript("https://rawgit.com/Kryptonkakan/basicBot-customization/master/basicBot.js", extend);
 
 }).call(this);
